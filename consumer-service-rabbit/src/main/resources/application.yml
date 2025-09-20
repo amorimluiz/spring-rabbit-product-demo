@@ -1,0 +1,14 @@
+spring:
+  amqp:
+    deserialization:
+      trust:
+        packages: dtos
+  application:
+    name: consumer-service-rabbit
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 8082
